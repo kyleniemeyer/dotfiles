@@ -2,86 +2,69 @@ tap "homebrew/command-not-found"
 tap "homebrew/core"
 tap "homebrew/bundle"
 tap "homebrew/services"
-tap "github/bootstrap"
 tap "caskroom/drivers"
 tap "caskroom/fonts"
 tap "caskroom/versions"
 tap "caskroom/cask"
 cask "caskroom/versions/java8"
+brew "autoconf"
 brew "ack"
 brew "automake"
 brew "cask"
 brew "cmake"
 brew "curl"
 brew "diff-so-fancy"
-brew "docker"
-brew "docker-machine"
-brew "dockutil"
-brew "elasticsearch@2.4", restart_service: true
-brew "fasd"
-brew "ghi"
+brew "gettext"
+brew "ghostscript"
 brew "git"
 brew "git-lfs"
-brew "go"
-brew "glide"
-brew "gmp"
 brew "gnupg", link: false
 brew "gpg-agent"
-brew "grc"
 brew "node"
 brew "heroku"
-brew "hub"
-brew "hyperscan"
-brew "libtool"
+brew "hunspell"
 brew "imagemagick"
-brew "jansson"
-brew "jq"
-brew "launch_socket_server", restart_service: true
-brew "launchdns", restart_service: true
+brew "jpeg"
 brew "lcov"
-brew "libxml2"
-brew "libxslt"
+brew "libidn2"
+brew "libtiff"
+brew "libunistring"
 brew "libyaml"
 brew "mackup"
 brew "mas"
 brew "md5sha1sum"
-brew "memcached", restart_service: true
-brew "mtr"
-brew "mysql", restart_service: true
-brew "nginx", restart_service: true
 brew "node-build"
-brew "nodenv"
+brew "openssl"
 brew "pandoc"
-brew "pidof"
-brew "pinentry-mac"
+brew "perl"
 brew "ruby-build"
 brew "rbenv"
 brew "rbenv-binstubs"
 brew "rbenv-default-gems"
-brew "redis", restart_service: true
-brew "ruby"
 brew "shellcheck"
-brew "siege"
-brew "socat"
-brew "softhsm"
-brew "tccutil"
-brew "the_silver_searcher"
-brew "tmpreaper"
+brew "tree"
 brew "wget"
 brew "zsh"
+brew "zsh-completions"
 cask "1password"
-cask "android-platform-tools"
+cask "alfred"
+cask "atom"
+cask "backblaze"
+cask "blockblock"
+cask "devonthink-pro-office"
 cask "dropbox"
+cask "dropshare"
 cask "encryptme"
-cask "gimp"
+cask "google-chrome"
 cask "google-hangouts"
 cask "gpg-suite"
 cask "java"
 cask "karabiner-elements"
 cask "keybase"
-cask "libreoffice"
-cask "paw"
-cask "prey"
+cask "little-snitch"
+cask "mactex"
+cask "opera"
+cask "oversight"
 cask "qlcolorcode"
 cask "qlimagesize"
 cask "qlmarkdown"
@@ -89,33 +72,31 @@ cask "qlstephen"
 cask "quickgeojson"
 cask "quicklook-csv"
 cask "quicklook-json"
-cask "skitch"
-cask "sling"
-cask "spotify"
+cask "skim"
 cask "steam"
-cask "viscosity"
+cask "undercover"
 cask "vlc"
 cask "zoomus"
-cask "caskroom/drivers/logitech-options"
+cask "zotero"
 cask "caskroom/drivers/yubico-authenticator"
 cask "caskroom/fonts/font-inconsolata"
 cask "caskroom/fonts/font-league-gothic"
 cask "caskroom/fonts/font-open-sans"
 cask "caskroom/fonts/font-source-code-pro"
 cask "caskroom/fonts/font-source-sans-pro"
-cask "caskroom/versions/atom-beta"
-cask "caskroom/versions/google-chrome-beta"
-cask "caskroom/versions/iterm2-beta"
-cask "caskroom/versions/slack-beta"
-mas "Calca", id: 635758264
-mas "Colors", id: 581915465
-mas "GarageBand", id: 682658836
-mas "GIF Brewery 3", id: 1081413713
-mas "iMovie", id: 408981434
+mas "1Blocker", id: 1107421413
+mas "Acorn", id: 1233861775
+mas "Amphetamine", id: 937984704
+mas "Calcbot", id: 931657367
+mas "Cardhop", id: 1290358394
+mas "Deliveries", id: 924726344
+mas "Fantastical 2", id: 975937182
 mas "Keynote", id: 409183694
-mas "Magic Window", id: 432840866
 mas "Numbers", id: 409203825
+mas "OmniGraffle", id: 1142578753
 mas "Pages", id: 409201541
-mas "Thessa", id: 942305623
-mas "Tweetbot", id: 557168941
-mas "TweetDeck", id: 485812721
+mas "Slack", id: 803453959
+mas "The Unarchiver", id: 425424353
+mas "Things3", id: 904280696
+mas "Tweetbot", id: 1384080005
+mas "Yoink", id: 457622435
