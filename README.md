@@ -1,8 +1,8 @@
-# @BenBalter's dotfiles
+# @kyleniemeyer's dotfiles
 
-[![Build Status](https://travis-ci.org/benbalter/dotfiles.svg?branch=master)](https://travis-ci.org/benbalter/dotfiles)
+[![Build Status](https://travis-ci.org/kyleniemeyer/dotfiles.svg?branch=master)](https://travis-ci.org/kyleniemeyer/dotfiles)
 
-@BenBalter's development environment and the scripts to initialize it and keep it up to date.
+@kyleniemeyer's development environment and the scripts to initialize it and keep it up to date.
 
 ## What's here
 
@@ -20,7 +20,7 @@
 
 ## Setting up a new machine from scratch
 
-1. Login to [osx-strap.herokuapp.com](https://osx-strap.herokuapp.com/) (or [strap.githubapp.com](https://strap.githubapp.com) for GitHubbers)
+1. Login to [macos-strap.herokuapp.com](https://macos-strap.herokuapp.com/) (or download and run locally from https://github.com/MikeMcQuaid/strap)
 2. Download `strap.sh`
 3. `bash ~/Downloads/strap.sh`
 
