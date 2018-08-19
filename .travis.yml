@@ -1,11 +1,14 @@
 os: osx
 osx_image: xcode8
+language: ruby
+rvm:
+  - 2.2
 before_install:
   - git clone https://github.com/mikemcquaid/strap
   - cd strap
   - STRAP_CI=1 ./bin/strap.sh
   - cd ..
-  - gem install rubocop 
+  - gem install rubocop
 # Empty (to avoid Bundler).
 install:
   -
