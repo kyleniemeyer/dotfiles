@@ -12,9 +12,9 @@
   whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
 
 [user]
-  name = Ben Balter
-  email = ben.balter@github.com
-  signingkey = 07C673FBF30E01C0C3427AB8DBB67C246AD356C4!
+  name = Kyle Niemeyer
+  email = kyle.niemeyer@gmail.com
+  signingkey = C6F9EDA8
 
 [color]
   branch = always
@@ -51,11 +51,12 @@
   whitespace = fix
 
 [github]
-  user = benbalter
-  token = !security find-internet-password -a benbalter -s github.com -w
+  user = kyleniemeyer
+  token = !security find-internet-password -a kyleniemeyer -s github.com -w
 
 [push]
   default = current
+  followTags = true
 
 [git-up "bundler"]
   check = true
@@ -73,7 +74,7 @@
 	process = git-lfs filter-process
 
 [ghi]
-  token = !security find-internet-password -a benbalter -s github.com -l 'ghi token' -w
+  token = !security find-internet-password -a kyleniemeyer -s github.com -l 'ghi token' -w
 
 [branch "master"]
   remote = origin
