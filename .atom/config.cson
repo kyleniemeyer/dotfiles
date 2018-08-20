@@ -4,32 +4,35 @@
   "atom-beautify":
     general:
       _analyticsUserId: ""
+    latex:
+      remove_trailing_whitespace: true
   "autocomplete-plus": {}
+  "autocomplete-python":
+    useKite: false
   "autocomplete-ruby":
-    rsensePath: "/Users/benbalter/.rbenv/shims/rsense"
+    rsensePath: "~/.rbenv/shims/rsense"
   autosave:
     enabled: true
   "code-links":
     displayMode: "always"
   core:
     disabledPackages: [
-      "rubocop-auto-correct"
-      "linter-rubocop"
-      "linter-proselint"
-      "github"
+      "language-gfm"
+      "spell-check"
     ]
     excludeVcsIgnoredPaths: false
-    telemetryConsent: "no"
+    telemetryConsent: "limited"
     titleBar: "custom-inset"
   editor:
     backUpBeforeSaving: true
+    fontFamily: "SF Mono"
     fontSize: 15
     invisibles: {}
     showIndentGuide: true
     showInvisibles: true
     softWrap: true
   "exception-reporting":
-    userId: "d0e99223-9683-a67e-278c-73f62295b9ed"
+    userId: "1c9e9caf-b51f-4115-9537-69d8fbab2140"
   "file-icons":
     onChanges: true
   "find-and-replace": {}
@@ -45,8 +48,10 @@
     enableNotice: true
     shellcheckExecutablePath: "/usr/local/bin/shellcheck"
     userParameters: "-x"
+  "linter-spell": {}
   "linter-ui-default":
     panelHeight: 99
+    showPanel: true
   "linter-write-good": {}
   "markdown-preview":
     useGitHubStyle: true

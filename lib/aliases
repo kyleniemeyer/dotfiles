@@ -30,19 +30,17 @@ alias console="script/console"
 #jekyll
 alias jl="jekyll serve --watch"
 alias jd="jekyll build --trace"
-alias atom="atom-beta"
-alias apm="apm-beta"
 
 #atom
-unalias a
-function a() {
-	if [ $# -eq 0 ]; then
-		atom .;
-	else
-		atom "$@";
-	fi;
-}
-function ja() { j "$@" ; a; }
+#unalias a
+#function a() {
+#	if [ $# -eq 0 ]; then
+#		atom .;
+#	else
+#		atom "$@";
+#	fi;
+#}
+#function ja() { j "$@" ; a; }
 
 #simple server
 alias server="python -m SimpleHTTPServer"
@@ -52,14 +50,11 @@ alias ip="curl icanhazip.com"
 alias flushdns="sudo dscacheutil -flushcache;sudo killall -HUP mDNSResponder; echo 'Flushed DNS, btw here is your hosts file just in case:'; cat /etc/hosts"
 
 # .files
-alias up="~/.files/script/update"
-alias setup="~/.files/script/setup"
-
-# Libre office
-alias soffice="/Applications/LibreOffice.app/Contents/MacOS/soffice"
+alias up="~/.dotfiles/script/update"
+alias setup="~/.dotfiles/script/setup"
 
 # Todo
-function todo(){ ghi open -m "${*}" --claim -- benbalter/todo; }
+function todo(){ ghi open -m "${*}" --claim -- kyleniemeyer/todo;s }
 alias todo-list="ghi list --global --mine"
 
 # Misc

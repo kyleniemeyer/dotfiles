@@ -3,9 +3,9 @@
 <plist version="1.0">
 	<dict>
 		<key>Label</key>
-		<string>com.balter.ben.update</string>
+		<string>com.niemeyer.kyle.update</string>
 		<key>Program</key>
-		<string>/Users/benbalter/.files/script/update</string>
+		<string>~/.dotfiles/script/update</string>
 		<key>StartCalendarInterval</key>
 		<dict>
 			<key>Hour</key>

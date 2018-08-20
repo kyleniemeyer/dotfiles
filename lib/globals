@@ -2,12 +2,11 @@
 # Set up some common global variables
 
 # Used internally
-export DOTFILES_ROOT="$HOME/.files"
+export DOTFILES_ROOT="$HOME/.dotfiles"
 
 # Setup cli tools
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
-export GOPATH=$HOME/go
-export PATH="./bin:/usr/local/bin:/usr/local/sbin:$GOPATH/bin:/usr/local/opt/gnupg@2.1/bin:$PATH"
+export PATH="./bin:$HOME/bin:$HOME/miniconda3/bin:/usr/local/bin:/usr/local/sbin:$PATH:/usr/local/texlive/2018/bin/x86_64-darwin"
 export NOKOGIRI_USE_SYSTEM_LIBRARIES=1
 
 # GitHub token with no scope, used to get around API limits
@@ -22,6 +21,7 @@ export SHELL=$(which zsh)
 export ZSH_THEME="robbyrussell"
 export DISABLE_UPDATE_PROMPT=true
 export COMPLETION_WAITING_DOTS="true"
+export SSH_KEY_PATH="~/.ssh/rsa_id"
 
 # You've got mail
 unset MAILCHECK

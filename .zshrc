@@ -1,17 +1,12 @@
 # shellcheck source=lib/globals
-source "/$HOME/.files/lib/globals"
+source "$HOME/.dotfiles/lib/globals"
 
 local plugins
 plugins=(
   atom
-  battery
-  bower
   brew
   brew-cask
   bundler
-  cloudapp
-  coffee
-  colored-man
   colorize
   command-not-found
   common-aliases
@@ -21,16 +16,7 @@ plugins=(
   gem
   git
   git-extras
-  golang
-  history-substring-search
-  heroku
-  iwhois
-  node
-  npm
   osx
-  rake
-  rake-fast
-  ruby
   safe-paste
   ssh-agent
   sudo
@@ -44,5 +30,3 @@ source "$DOTFILES_ROOT/script/setup/shell"
 
 # shellcheck source=lib/aliases
 source "$DOTFILES_ROOT/lib/aliases"
-
-test -e ${HOME}/.iterm2_shell_integration.zsh && source ${HOME}/.iterm2_shell_integration.zsh

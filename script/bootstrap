@@ -3,12 +3,12 @@
 set -e
 
 # Bootstrap dotfiles
-if [[ ! -d "$HOME/.files" ]]; then
-  git clone https://github.com/benbalter/dotfiles ~/.files
+if [[ ! -d "$HOME/.dotfiles" ]]; then
+  git clone https://github.com/kyleniemeyer/dotfiles ~/.dotfiles
 fi
 
 # shellcheck source=lib/globals
-source "$HOME/.files/lib/globals"
+source "$HOME/.dotfiles/lib/globals"
 
 # shellcheck source=lib/functions
 source "$DOTFILES_ROOT/lib/functions"
@@ -19,8 +19,8 @@ else
   sudo -n -v
 fi
 
-# atom
-setups=(symlinks token homebrew ruby dropbox dock node background-apps zsh chrome prey mackup iterm)
+# bundler
+setups=(symlinks token homebrew osx ruby dropbox dock background-apps zsh chrome atom mackup)
 
 for setup in "${setups[@]}"; do
   script/title "Setting up $setup"

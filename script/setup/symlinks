@@ -2,28 +2,27 @@
 # Setups up symlinks from .files to home directory
 
 # shellcheck source=lib/globals
-source "/$HOME/.files/lib/globals"
+source "$HOME/.dotfiles/lib/globals"
 
 # shellcheck source=lib/functions
-source "/$DOTFILES_ROOT/lib/functions"
+source "$DOTFILES_ROOT/lib/functions"
 
 link_safe .gitconfig
 link_safe .gitignore
-link_safe .irbrc
-link_safe .pryrc
 link_safe .Brewfile
 link_safe .gemrc
 link_safe .mackup.cfg
-link_safe .digrc
-link_safe .osx.yml
 link_safe .remarkrc
 
 mkdir_safe "Library/LaunchAgents/"
-link_safe Library/LaunchAgents/com.balter.ben.tmpreaper.plist
-link_safe Library/LaunchAgents/com.balter.ben.update.plist
+#link_safe Library/LaunchAgents/com.niemeyer.kyle.tmpreaper.plist
+link_safe Library/LaunchAgents/com.niemeyer.kyle.update.plist
 
 mkdir_safe "Library/Spelling/"
 link_safe Library/Spelling/LocalDictionary
+link_safe Library/Spelling/README_en_US.txt
+link_safe Library/Spelling/en_US.dic
+link_safe Library/Spelling/en_US.aff
 
 mkdir_safe projects
 mkdir_safe github

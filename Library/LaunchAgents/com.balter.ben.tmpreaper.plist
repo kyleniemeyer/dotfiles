@@ -8,7 +8,7 @@
 		<array>
 			<string>/usr/local/sbin/tmpreaper</string>
 			<string>5d</string>
-			<string>/Users/benbalter/Downloads</string>
+			<string>~/Downloads</string>
 		</array>
 		<key>StartCalendarInterval</key>
 		<dict>

@@ -27,3 +27,8 @@
 ## How to update dependencies
 
 Run `up`
+
+## Todo
+
+- [ ] HOMEBREW_GITHUB_API_TOKEN setup in `lib/globals` requires `~/.token`, which is set up inside `script/setup/token`
+- [ ] add Anaconda (miniconda) setup

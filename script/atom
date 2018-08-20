@@ -1,9 +1,9 @@
 #!/usr/bin/env ruby
 
 require 'json'
-`apm-beta clean`
+`apm clean`
 
-plugins = `apm-beta list --installed --bare`
+plugins = `apm list --installed --bare`
 packages = plugins.split("\n").map { |p| p.split('@').first }.sort_by(&:downcase)
 path = File.expand_path '../.atom/packages.cson', __dir__
 File.write path, "packages: #{JSON.pretty_generate(packages).delete(',')}"
