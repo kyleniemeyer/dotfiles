@@ -20,7 +20,6 @@ brew "ghostscript"
 brew "git"
 brew "git-lfs"
 brew "gnupg", link: false
-brew "gpg-agent"
 brew "node"
 brew "heroku"
 brew "hunspell"
