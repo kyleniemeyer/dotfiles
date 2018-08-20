@@ -20,7 +20,7 @@ else
 fi
 
 # bundler
-setups=(symlinks token homebrew osx ruby dropbox dock background-apps zsh chrome atom mackup)
+setups=(symlinks token homebrew osx ruby dropbox dock background-apps zsh chrome atom conda mackup)
 
 for setup in "${setups[@]}"; do
   script/title "Setting up $setup"

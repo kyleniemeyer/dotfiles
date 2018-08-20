@@ -1,0 +1,19 @@
+#!/bin/sh
+# Set up Anaconda (miniconda)
+
+source "$HOME/.dotfiles/lib/globals"
+
+if [ ! -d "$HOME/miniconda3" ]; then
+  #brew install wget
+  #sh -c "$(wget -O - https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh)"
+  #wget https://repo.continuum.io/miniconda/Miniconda3-3.7.0-Linux-x86_64.sh -O miniconda.sh
+  #bash miniconda.sh -b -p "$HOME/miniconda3"
+  #rm -f miniconda.sh
+  brew cask install miniconda
+
+  # Is there a better way to install these packages to the base env?
+  conda update -q conda
+  conda update -q --all
+  conda config --add channels conda-forge
+  conda install -q numpy scipy matplotlib ipython pandas pint yaml openssl jupyter
+fi
