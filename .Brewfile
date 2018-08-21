@@ -22,6 +22,7 @@ brew "git-lfs"
 brew "gnupg", link: false
 brew "node"
 brew "heroku"
+brew "hub"
 brew "hunspell"
 brew "imagemagick"
 brew "jpeg"
