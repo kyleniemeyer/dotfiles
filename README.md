@@ -32,3 +32,4 @@ Run `up`
 
 - [ ] HOMEBREW_GITHUB_API_TOKEN setup in `lib/globals` requires `~/.token`, which is set up inside `script/setup/token`
 - [x] add Anaconda (miniconda) setup
+- [ ] remove hardcoded computer name variables in `script/setup/osx`, query for those
