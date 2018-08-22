@@ -6,7 +6,7 @@ export DOTFILES_ROOT="$HOME/.dotfiles"
 
 # Setup cli tools
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
-export PATH="./bin:$HOME/bin:$HOME/miniconda3/bin:/usr/local/bin:/usr/local/sbin:$PATH:/usr/local/texlive/2018/bin/x86_64-darwin"
+export PATH="./bin:$HOME/bin:/usr/local/miniconda3/bin:/usr/local/bin:/usr/local/sbin:$PATH:/usr/local/texlive/2018/bin/x86_64-darwin"
 export NOKOGIRI_USE_SYSTEM_LIBRARIES=1
 
 # GitHub token with no scope, used to get around API limits
