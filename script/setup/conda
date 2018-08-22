@@ -16,4 +16,5 @@ if [ ! -d "$HOME/miniconda3" ]; then
   conda update -q --all
   conda config --add channels conda-forge
   conda install -q numpy scipy matplotlib ipython pandas pint yaml openssl jupyter
+  pip install proselint
 fi
