@@ -9,6 +9,7 @@ packages: [
   "busy-signal"
   "file-icons"
   "git-plus"
+  "grammar-token-limit"
   "highlight-selected"
   "import-sf-mono"
   "intentions"
