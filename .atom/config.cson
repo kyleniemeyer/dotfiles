@@ -50,8 +50,7 @@
     userParameters: "-x"
   "linter-spell": {}
   "linter-ui-default":
-    panelHeight: 99
-    showPanel: true
+    panelHeight: 300
   "linter-write-good": {}
   "markdown-preview":
     useGitHubStyle: true
@@ -99,7 +98,6 @@
   "travis-ci-status": {}
   "tree-view":
     autoReveal: true
-    hideVcsIgnoredFiles: true
     squashDirectoryNames: true
   welcome:
     showOnStartup: false
