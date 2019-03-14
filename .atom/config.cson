@@ -6,6 +6,8 @@
       _analyticsUserId: ""
     latex:
       remove_trailing_whitespace: true
+  "atom-package-deps":
+    ignored: []
   "autocomplete-plus": {}
   "autocomplete-python":
     useKite: false
@@ -19,6 +21,7 @@
     disabledPackages: [
       "language-gfm"
       "spell-check"
+      "linter-proselint"
     ]
     excludeVcsIgnoredPaths: false
     telemetryConsent: "limited"
@@ -42,6 +45,8 @@
     showEolInStatusBar: false
   linter: {}
   "linter-alex": {}
+  "linter-pylint":
+    disableTimeout: true
   "linter-rubocop": {}
   "linter-ruby": {}
   "linter-shellcheck":
@@ -51,6 +56,7 @@
   "linter-spell": {}
   "linter-ui-default":
     panelHeight: 300
+    showPanel: true
   "linter-write-good": {}
   "markdown-preview":
     useGitHubStyle: true
