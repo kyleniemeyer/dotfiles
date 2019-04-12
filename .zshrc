@@ -3,9 +3,7 @@ source "$HOME/.dotfiles/lib/globals"
 
 local plugins
 plugins=(
-  atom
   brew
-  brew-cask
   bundler
   colorize
   command-not-found
@@ -30,3 +28,6 @@ source "$DOTFILES_ROOT/script/setup/shell"
 
 # shellcheck source=lib/aliases
 source "$DOTFILES_ROOT/lib/aliases"
+
+# added by travis gem
+[ -f /Users/niemeyek/.travis/travis.sh ] && source /Users/niemeyek/.travis/travis.sh
