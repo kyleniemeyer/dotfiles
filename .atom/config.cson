@@ -3,7 +3,7 @@
   "atom-alignment": {}
   "atom-beautify":
     general:
-      _analyticsUserId: ""
+      _analyticsUserId: "41236ce4-dd2a-484d-8b10-6ea88f0c2f0b"
     latex:
       remove_trailing_whitespace: true
   "atom-package-deps":
@@ -55,7 +55,7 @@
     userParameters: "-x"
   "linter-spell": {}
   "linter-ui-default":
-    showPanel: true
+    panelHeight: 300
   "linter-write-good": {}
   "markdown-preview":
     useGitHubStyle: true
