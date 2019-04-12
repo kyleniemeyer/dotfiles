@@ -103,7 +103,6 @@
   "travis-ci-status": {}
   "tree-view":
     autoReveal: true
-    hideVcsIgnoredFiles: true
     squashDirectoryNames: true
   welcome:
     showOnStartup: false

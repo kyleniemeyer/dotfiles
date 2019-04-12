@@ -23,5 +23,11 @@ export DISABLE_UPDATE_PROMPT=true
 export COMPLETION_WAITING_DOTS="true"
 export SSH_KEY_PATH="~/.ssh/rsa_id"
 
+# Load private key passphrases from MacOS Keychain
+{ eval `ssh-agent`; ssh-add -A;  } &>/dev/null
+
 # You've got mail
 unset MAILCHECK
+
+# zsh-completions
+fpath=(/usr/local/share/zsh-completions $fpath)
