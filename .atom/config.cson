@@ -56,7 +56,6 @@
   "linter-spell": {}
   "linter-ui-default":
     panelHeight: 300
-    showPanel: true
   "linter-write-good": {}
   "markdown-preview":
     useGitHubStyle: true
