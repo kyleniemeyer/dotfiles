@@ -19,6 +19,7 @@ plugins=(
   ssh-agent
   sudo
   zsh_reload
+  zsh-autosuggestions
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -31,3 +32,5 @@ source "$DOTFILES_ROOT/lib/aliases"
 
 # added by travis gem
 [ -f /Users/niemeyek/.travis/travis.sh ] && source /Users/niemeyek/.travis/travis.sh
+
+fpath=(/usr/local/share/zsh-completions $fpath)
